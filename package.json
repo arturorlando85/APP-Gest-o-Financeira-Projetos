@@ -1,0 +1,13 @@
+{
+  "name": "safeharbor-financeiro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend para o controle financeiro de projetos do Safe Harbor GPOD, que lê e grava direto nas planilhas Database.xlsx e Config.xlsx.",
+  "scripts": {
+    "build": "python3 build.py",
+    "serve": "python3 -m http.server 8765 -d dist"
+  },
+  "dependencies": {
+    "jszip": "3.10.1"
+  }
+}
